@@ -1,0 +1,9 @@
+.main1{
+    background-color: rgb(213, 234, 110);
+    height: 200px;
+    width: 500px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
