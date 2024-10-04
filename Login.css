@@ -1,9 +1,31 @@
-.main1{
+
+
+input,label{
+    font-size: 1.5rem;
+}
+
+body{
+    justify-content: center;
+}
+
+.main1 {
     background-color: rgb(213, 234, 110);
-    height: 200px;
+    height: 400px;
     width: 500px;
     box-sizing: border-box;
     border-radius: 10px;
     padding-left: 40px;
     padding-top: 40px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.b1 {
+    margin: 10px; /* Space between buttons */
+    padding: 0.5rem; /* Adjust padding for better appearance */
+    width: 160px; /* Keep the button width */
+    font-size: 1.5rem; /* Maintain the font size */
+    text-align: center; /* Center text in buttons */
+    padding-bottom: 2rem;
 }
